@@ -16,8 +16,8 @@ window.onload = function() {
 
 
 function addPlayButton() {
-  alert("djsakdjsal")
   $('.header-left.header-logo-container').append('<img class="play" src="https://github.com/jpontoppidan/cj-resources/raw/master/images/play.png" />')
+  alert("djsakdjsal")
 }
 
 function showVideo() {

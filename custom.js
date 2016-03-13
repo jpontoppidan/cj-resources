@@ -16,10 +16,7 @@ window.onload = function() {
 
 
 function addPlayButton() {
-  play = document.createElement("img")
-  play.setAttribute("class", "play")
-  play.setAttribute("src", "https://github.com/jpontoppidan/cj-resources/raw/master/images/play.png")
-  $('.lander-content marketplace-lander-content')[0].append(play)
+  $('.lander-content marketplace-lander-content').append('<img class="play" src="https://github.com/jpontoppidan/cj-resources/raw/master/images/play.png" />')
 }
 
 function showVideo() {

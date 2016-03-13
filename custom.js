@@ -38,6 +38,10 @@ function addPlayButton() {
 }
 
 function showVideo() {
+  play = document.createElement("img")
+  play.setAttribute("src", "https://github.com/jpontoppidan/cj-resources/raw/master/images/play.png")
+  document.body.appendChild(play)
+
 	$(window).resize(function(){
 		resizeVideo();
 	});

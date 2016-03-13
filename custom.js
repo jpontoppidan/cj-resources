@@ -16,6 +16,7 @@ window.onload = function() {
 
 
 function addPlayButton() {
+  alert("djsakdjsal")
   $('.lander-content marketplace-lander-content').append('<img class="play" src="https://github.com/jpontoppidan/cj-resources/raw/master/images/play.png" />')
 }
 

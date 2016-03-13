@@ -42,7 +42,7 @@ function showVideo() {
   play = document.createElement("img")
   play.setAttribute("class", "play")
   play.setAttribute("src", "https://github.com/jpontoppidan/cj-resources/raw/master/images/play.png")
-  document.body.appendChild(play)
+  $('.lander-content marketplace-lander-content').appendChild(play)
 
 	$(window).resize(function(){
 		resizeVideo();

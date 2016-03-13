@@ -1,5 +1,5 @@
 window.onload = function() {
-  //addPlayButton()
+  addPlayButton()
 //  if (document.cookie.replace(/(?:(?:^|.*;\s*)videoShown\s*\=\s*([^;]*).*$)|^.*$/, "$1") !== "true") {
   	showVideo()
     document.cookie = "videoShown=true; expires=Fri, 31 Dec 9999 23:59:59 GMT";
@@ -16,33 +16,13 @@ window.onload = function() {
 
 
 function addPlayButton() {
-	button = document.createElement("div")
-	button.setAttribute("class", "videoplay")
-	document.body.appendChild(button)
-
-	button.innerHTML = `
-<svg class="defs">
-  <defs>
-    <path id="play-button-shape"  d="M24,0C10.745,0,0,10.745,0,24s10.745,24,24,24s24-10.745,24-24S37.255,0,24,0z M31.672,26.828l-9.344,9.344
-    C20.771,37.729,19.5,37.2,19.5,35V13c0-2.2,1.271-2.729,2.828-1.172l9.344,9.344C33.229,22.729,33.229,25.271,31.672,26.828z"/>
-  </defs>
-</svg>
-
-<div class="buttons">
-  <!-- if we needed to change height/width we could use viewBox here -->
-  <svg class="button" id="play-button">
-    <use xlink:href="#play-button-shape">
-  </svg>
-</div>`
-
-}
-
-function showVideo() {
-
   play = document.createElement("img")
   play.setAttribute("class", "play")
   play.setAttribute("src", "https://github.com/jpontoppidan/cj-resources/raw/master/images/play.png")
   $('.lander-content marketplace-lander-content').appendChild(play)
+}
+
+function showVideo() {
 
 	$(window).resize(function(){
 		resizeVideo();

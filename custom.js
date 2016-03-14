@@ -1,4 +1,4 @@
-videoId = "lNvgJlsXVW4"
+var videoId = "lNvgJlsXVW4"
 
 
 window.onload = function() {

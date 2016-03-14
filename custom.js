@@ -3,10 +3,10 @@ var videoId = "lNvgJlsXVW4"
 
 window.onload = function() {
   //addPlayButton()
-  if (document.cookie.replace(/(?:(?:^|.*;\s*)videoShown\s*\=\s*([^;]*).*$)|^.*$/, "$1") !== "true") {
+//  if (document.cookie.replace(/(?:(?:^|.*;\s*)videoShown\s*\=\s*([^;]*).*$)|^.*$/, "$1") !== "true") {
   	showVideo()
     document.cookie = "videoShown=true; expires=Fri, 31 Dec 9999 23:59:59 GMT";
-  }
+//  }
   button = document.getElementById("new-listing-link");
   button.innerHTML = "Become a Jiber";
 

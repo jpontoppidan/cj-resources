@@ -1,5 +1,8 @@
+videoId = "INvgJIsXVW4"
+
+
 window.onload = function() {
-  addPlayButton()
+  //addPlayButton()
 //  if (document.cookie.replace(/(?:(?:^|.*;\s*)videoShown\s*\=\s*([^;]*).*$)|^.*$/, "$1") !== "true") {
   	showVideo()
     document.cookie = "videoShown=true; expires=Fri, 31 Dec 9999 23:59:59 GMT";
@@ -32,7 +35,6 @@ function showVideo() {
 		}
 	});
 
-  	videoId = "eyUagNQoFhk"
 	overlay = document.createElement("div")
 	overlay.setAttribute("class", "overlay")
 	document.body.appendChild(overlay)

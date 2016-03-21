@@ -8,7 +8,7 @@ window.onload = function() {
     document.cookie = "videoShown=true; expires=Fri, 31 Dec 9999 23:59:59 GMT";
 //  }
   button = document.getElementById("new-listing-link");
-  button.innerHTML = "Become a Jiber";
+  // button.innerHTML = "Become a Jiber";
 
   document.getElementsByClassName("home-categories-main")[0].innerHTML="All locations"
 

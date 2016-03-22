@@ -37,9 +37,7 @@ function showVideo() {
 
 	overlay = document.createElement("div")
 	overlay.setAttribute("class", "overlay")
-alert(1)
 	document.body.appendChild(overlay)
-alert(2)
 	youtube = document.createElement("div");
 	youtube.setAttribute("class", "youtube");
 	close = document.createElement("a");
@@ -48,7 +46,6 @@ alert(2)
 	video = document.createElement("iframe");
 	youtube.appendChild(video)
 	video.setAttribute("src", "https://www.youtube.com/embed/" + videoId + "?autoplay=1&autohide=1&border=0&wmode=opaque&enablejsapi=1");
-alert(3)
 	overlay.appendChild(youtube)
 	resizeVideo();
 }
